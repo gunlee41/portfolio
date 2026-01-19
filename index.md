@@ -3,24 +3,24 @@ layout: default
 ---
 
 <style>
-  /* [1] 가독성 및 전체 폰트 크기 상향 (건희님 설정 유지) */
+  /* [1] 가독성 및 전체 폰트 크기 상향 */
   .markdown-body {
     max-width: 880px !important;
     margin: 0 auto !important;
     padding: 100px 40px !important;
-    font-size: 19px !important;
+    font-size: 19px !important; /* 텍스트 크기를 더 키움 */
     line-height: 1.9;
     text-align: left !important;
     color: #2d3436;
   }
   header, footer, .site-header, .site-footer { display: none !important; }
 
-  /* [2] 제목 스타일 */
+  /* [2] 제목 스타일 (줄바꿈 방지) */
   h1 { font-size: 2.6em !important; font-weight: 800; margin-bottom: 40px !important; word-break: keep-all; }
   h2 { margin-top: 100px !important; border-bottom: 2px solid #eee; padding-bottom: 10px; font-size: 1.9em !important; }
   h3 { margin-top: 40px !important; color: #0984e3; font-size: 1.4em !important; }
 
-  /* [3] 이미지 가로 배치 레이아웃 */
+  /* [3] 이미지 가로 배치 레이아웃 (표 대체) */
   .project-flex-row {
     display: flex;
     gap: 30px;
@@ -37,7 +37,7 @@ layout: default
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     transition: 0.3s;
-    cursor: zoom-in; /* 커서 모양 돋보기로 변경 */
+    cursor: zoom-in;
   }
   .project-flex-item img:hover { transform: translateY(-10px); }
   .img-caption { margin-top: 15px; font-weight: bold; color: #636e72; }
@@ -53,26 +53,6 @@ layout: default
     text-decoration: none !important;
     font-weight: bold;
     margin: 20px 0;
-  }
-
-  /* [5] 이미지 팝업(Lightbox) 스타일 추가 */
-  #imageModal {
-    display: none; 
-    position: fixed; 
-    z-index: 1000; 
-    left: 0; 
-    top: 0; 
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0,0,0,0.9); 
-    align-items: center; 
-    justify-content: center;
-  }
-  #modalImg {
-    max-width: 90%; 
-    max-height: 90%; 
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255,255,255,0.2);
   }
   
   @media (max-width: 768px) {
@@ -93,9 +73,10 @@ layout: default
 
 **특히, 타인의 삶에 깊이 공감하는 인문학적 소양을 바탕으로 '대전 인권센터 기자단' 활동을 수행하며 공익적 가치를 진정성 있게 전달한 경험이 있습니다.** 기술과 감성을 연결하여 신뢰를 주는 커뮤니케이션을 지향합니다.
 
-<!-- 이미지 클릭 시 팝업 함수 호출 -->
-<img src="assets/images/human.jpg" alt="소개 이미지" onclick="openModal(this.src)" style="width:100%; border-radius:15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); cursor: zoom-in;">
-<p align="center" style="font-size: 0.9em; color: #b2bec3; margin-top: 15px;">▲ 이미지를 클릭하면 크게 볼 수 있습니다.</p>
+<a href="assets/images/human.jpg" target="_blank">
+  <img src="assets/images/human.jpg" alt="소개 이미지" style="width:100%; border-radius:15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+</a>
+<p align="center" style="font-size: 0.9em; color: #b2bec3; margin-top: 15px;">▲ 이미지를 클릭하면 새 창에서 원본을 크게 볼 수 있습니다.</p>
 
 ---
 
@@ -104,7 +85,9 @@ layout: default
 ### 📌 Project 1. AI 협업 게임 ‘Weather is What’
 전문 코딩 지식이 없어도 LLM을 활용해 실제 서비스를 구현해내는 실행력을 갖췄습니다.
 
-<img src="assets/images/game.png" alt="게임 구동 화면" onclick="openModal(this.src)" style="width:100%; border-radius:15px; cursor: zoom-in;">
+<a href="assets/images/game.png" target="_blank">
+  <img src="assets/images/game.png" alt="게임 구동 화면" style="width:100%; border-radius:15px;">
+</a>
 
 <div align="center">
   <a href="https://gunlee41.github.io/weatheriswhat/" class="btn-action" target="_blank">🎮 게임 플레이해보기</a>
@@ -115,11 +98,11 @@ layout: default
 ### 📌 Project 2. 시집 <낚시> 출판
 <div class="project-flex-row">
   <div class="project-flex-item">
-    <img src="assets/images/poetry_book.png" onclick="openModal(this.src)">
+    <a href="assets/images/poetry_book.png" target="_blank"><img src="assets/images/poetry_book.png"></a>
     <div class="img-caption">시집 <낚시> 발간</div>
   </div>
   <div class="project-flex-item">
-    <img src="assets/images/poet.jpg" onclick="openModal(this.src)">
+    <a href="assets/images/poet.jpg" target="_blank"><img src="assets/images/poet.jpg"></a>
     <div class="img-caption">등단 및 신인상 수상</div>
   </div>
 </div>
@@ -129,11 +112,11 @@ layout: default
 ### 📌 Project 3. 콘텐츠 채널 성장전략
 <div class="project-flex-row">
   <div class="project-flex-item">
-    <img src="assets/images/insta.png" onclick="openModal(this.src)">
+    <a href="assets/images/insta.png" target="_blank"><img src="assets/images/insta.png"></a>
     <div class="img-caption">인스타그램 운영</div>
   </div>
   <div class="project-flex-item">
-    <img src="assets/images/support.png" onclick="openModal(this.src)">
+    <a href="assets/images/support.png" target="_blank"><img src="assets/images/support.png"></a>
     <div class="img-caption">브랜드 협찬 사례</div>
   </div>
 </div>
@@ -147,20 +130,4 @@ layout: default
 
 ---
 
-<!-- 감사합니다 문구 크게 수정 -->
-<h2 align="center" style="margin-top: 100px; color: #2d3436; border: none;">감사합니다.</h2>
-
-<!-- 이미지 팝업용 HTML 및 스크립트 (건드리지 않으셔도 됩니다) -->
-<div id="imageModal" onclick="closeModal()">
-  <img id="modalImg">
-</div>
-
-<script>
-  function openModal(src) {
-    document.getElementById('modalImg').src = src;
-    document.getElementById('imageModal').style.display = "flex";
-  }
-  function closeModal() {
-    document.getElementById('imageModal').style.display = "none";
-  }
-</script>
+<p align="center" style="margin-top: 100px; color: #dfe6e9;">감사합니다.</p>
