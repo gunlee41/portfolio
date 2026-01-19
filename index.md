@@ -1,5 +1,5 @@
 # [문제를 해결하는 제너럴리스트, 이건희입니다]
-
+<br>
 > "감성의 언어로 소통하고, 기술의 도구로 문제를 해결합니다."  
 > 📧 Email: liongun3@naver.com  
 > 📧 Email 2: gunlee41@kakao.com 
