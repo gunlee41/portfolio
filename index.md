@@ -3,7 +3,15 @@ layout: default
 title: 이건희 포트폴리오
 ---
 
-# 문제를 해결하는 제너럴리스트, 이건희입니다
+<!-- 여기서부터 버튼과 푸터를 숨기는 스타일 코드입니다 -->
+<style>
+  header a.btn { display: none !important; }
+  footer { display: none !important; }
+  .site-footer { display: none !important; }
+  body { margin-bottom: 50px; }
+</style>
+
+# [문제를 해결하는 제너럴리스트, 이건희입니다]
 
 > "감성의 언어로 소통하고, 기술의 도구로 문제를 해결합니다."  
 > 📧 Email: liongun3@naver.com  
@@ -16,7 +24,7 @@ title: 이건희 포트폴리오
 하나의 직무에 갇히기보다, **문제를 해결하는 데 필요한 도구를 가리지 않고 사용하는 보편적인 인재**입니다.  
 글쓰기(기획), 디자인(시각화), 그리고 데이터와 코딩(구현)을 넘나들며, 조직에 비어 있는 부분을 채우고 **'일이 되게 만드는 역할'**을 수행합니다.
 
-<!-- 인권센터 활동 사진을 소개 옆에 배치하여 신뢰도 상승 -->
+<!-- 인권센터 활동 사진 -->
 ![인권센터 활동 확인](assets/images/human.jpg)
 *▲ 대전 인권센터 기자단 활동 및 공익 활동 증빙*
 
@@ -48,9 +56,10 @@ title: 이건희 포트폴리오
 *   **성과:** 등단 작가(신인상), 시집 독립출판, 매거진 기고
 *   **증빙:**
     *   [📄 잡지 기고문(PDF) 보기](assets/images/magazine.pdf)
-    *   [📄 인터뷰 전문 이미지 보기](assets/images/interview.pdf)
+    *   [📄 인터뷰 전문 이미지 보기](assets/images/interview.jpg)
 
-<!-- 시집 표지와 등단 상장 나란히 배치 (테이블 활용) -->
+<!-- 시집 표지와 등단 상장 -->
+
 | 시집 <낚시> 발간 | 등단 및 신인상 수상 |
 | :---: | :---: |
 | ![시집 표지](assets/images/poetry_book.png) | ![등단 상장](assets/images/poet.jpg) |
@@ -64,6 +73,8 @@ title: 이건희 포트폴리오
 
 *   **성과:** 인스타그램 팔로워 1.3k, 브랜드 협찬 및 제휴 달성
 *   **역할:** 채널 운영, 카드뉴스 제작, 데이터 분석
+
+<!-- 인스타 표 -->
 
 | 인스타그램 운영 | 브랜드 협찬 사례 |
 | :---: | :---: |
@@ -86,14 +97,15 @@ title: 이건희 포트폴리오
 
 ### 감사합니다.
 
-<!-- 아래는 깃허브 버튼과 푸터를 숨기는 마법의 코드입니다 -->
-<style>
-  /* 상단 'View on GitHub' 파란 버튼 숨기기 */
-  header a.btn { display: none !important; }
-  
-  /* 하단 'Maintained by' 푸터 숨기기 */
-  footer { display: none !important; }
-  
-  /* 바닥에 약간의 여백 주기 */
-  body { margin-bottom: 100px; }
-</style>
+<br>
+
+### 🎁 Bonus Project. 현재 보고 계신 이 포트폴리오
+**"과정 자체가 증명하는 습득력"**
+
+이 사이트는 별도의 웹 빌더(Wix, I'mweb)나 유료 호스팅 없이, **Github Pages와 마크다운(Markdown)**을 익혀 직접 제작했습니다.
+코드가 낯설어 화면 레이아웃이 깨지는 시행착오가 있었으나, **AI와의 협업과 리서치**를 통해 즉시 해결하고 배포까지 완료했습니다.
+
+*   **제작 기간:** 1일 (Fast Prototyping)
+*   **비용:** 0원 (오픈소스 활용 및 자체 제작)
+*   **사용 기술:** Github, Jekyll Theme, Markdown, AI Prompting
+*   **의의:** 필요한 도구가 있다면, 망설이지 않고 배워서 **내 것으로 만듭니다.**
