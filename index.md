@@ -1,3 +1,8 @@
+---
+layout: default
+title: 이건희 포트폴리오
+---
+
 # [문제를 해결하는 제너럴리스트, 이건희입니다]
 
 > "감성의 언어로 소통하고, 기술의 도구로 문제를 해결합니다."  
@@ -43,7 +48,7 @@
 *   **성과:** 등단 작가(신인상), 시집 독립출판, 매거진 기고
 *   **증빙:**
     *   [📄 잡지 기고문(PDF) 보기](assets/images/magazine.pdf)
-    *   [📄 인터뷰 전문 이미지 보기](assets/images/interview.pdf)
+    *   [📄 인터뷰 전문(PDF) 보기](assets/images/interview.pdf)
 
 <!-- 시집 표지와 등단 상장 나란히 배치 -->
 
