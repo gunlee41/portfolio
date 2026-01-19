@@ -3,85 +3,61 @@ layout: default
 ---
 
 <style>
-  /* 1. 전체 레이아웃 및 여백 최적화 */
+  /* [1] 가독성 및 전체 폰트 크기 상향 */
   .markdown-body {
-    max-width: 900px !important;
+    max-width: 880px !important;
     margin: 0 auto !important;
-    padding: 100px 40px !important; /* 섹션 간 상하 여백 대폭 확대 */
-    font-size: 18px !important;     /* 전체 글씨 크기 상향 */
-    line-height: 1.8;
-    word-break: keep-all;
+    padding: 100px 40px !important;
+    font-size: 19px !important; /* 텍스트 크기를 더 키움 */
+    line-height: 1.9;
     text-align: left !important;
     color: #2d3436;
   }
+  header, footer, .site-header, .site-footer { display: none !important; }
 
-  /* 헤더, 푸터 등 불필요한 테마 요소 제거 */
-  header, footer, .site-header, .site-footer, .breadcrumb { display: none !important; }
+  /* [2] 제목 스타일 (줄바꿈 방지) */
+  h1 { font-size: 2.6em !important; font-weight: 800; margin-bottom: 40px !important; word-break: keep-all; }
+  h2 { margin-top: 100px !important; border-bottom: 2px solid #eee; padding-bottom: 10px; font-size: 1.9em !important; }
+  h3 { margin-top: 40px !important; color: #0984e3; font-size: 1.4em !important; }
 
-  /* 2. 제목 스타일 및 줄바꿈 방지 */
-  h1 { 
-    font-size: 2.6em !important; 
-    font-weight: 800 !important;
-    margin-bottom: 50px !important;
-    line-height: 1.3 !important;
-    word-break: keep-all; /* 단어 단위 줄바꿈으로 깔끔하게 */
-  }
-  h2 { 
-    margin-top: 100px !important; /* 섹션 시작 전 여백 확보 */
-    margin-bottom: 30px !important;
-    border-bottom: 2px solid #f1f2f6; 
-    padding-bottom: 15px;
-    font-size: 1.8em !important;
-  }
-  h3 { margin-top: 40px !important; color: #0984e3; }
-
-  /* 3. 이미지 가로 배치 (깨지는 표 기능 대체) */
-  .image-container {
+  /* [3] 이미지 가로 배치 레이아웃 (표 대체) */
+  .project-flex-row {
     display: flex;
-    gap: 25px;
+    gap: 30px;
     margin: 30px 0;
   }
-  .image-item {
+  .project-flex-item {
     flex: 1;
     text-align: center;
   }
-  .image-item img {
+  .project-flex-item img {
     width: 100%;
-    height: 380px; /* 이미지 높이 통일 */
+    height: 380px;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
     cursor: zoom-in;
   }
-  .image-item img:hover { transform: translateY(-8px); }
-  .image-label { margin-top: 15px; font-weight: 600; color: #636e72; font-size: 0.95em; }
+  .project-flex-item img:hover { transform: translateY(-10px); }
+  .img-caption { margin-top: 15px; font-weight: bold; color: #636e72; }
 
-  /* 4. 링크 및 버튼 스타일 */
-  .cert-link { 
-    color: #0984e3 !important; 
-    text-decoration: underline !important; 
-    font-weight: bold; 
-    margin-left: 8px;
-  }
-  .btn {
+  /* [4] 링크 및 강조 */
+  .cert-link { color: #0984e3 !important; font-weight: bold; text-decoration: underline !important; margin-left: 10px; }
+  .btn-action {
     display: inline-block;
-    padding: 14px 30px;
+    padding: 15px 35px;
     background: #0984e3;
-    color: #fff !important;
+    color: white !important;
     border-radius: 50px;
     text-decoration: none !important;
     font-weight: bold;
-    margin: 25px 0;
-    transition: 0.3s;
+    margin: 20px 0;
   }
-  .btn:hover { background: #074a81; }
-
-  /* 모바일 대응: 이미지를 세로로 쌓음 */
+  
   @media (max-width: 768px) {
-    .image-container { flex-direction: column; }
-    .image-item img { height: auto; }
-    h1 { font-size: 2em !important; }
+    .project-flex-row { flex-direction: column; }
+    .project-flex-item img { height: auto; }
   }
 </style>
 
@@ -93,10 +69,10 @@ layout: default
 ---
 
 ## 1. 소개 (Introduction)
-하나의 직무에 갇히기보다 도구를 가리지 않고 사용하는 인재입니다.
+하나의 직무에 갇히기보다 도구를 가리지 않고 사용하는 인재입니다. 시각적인 기획부터 기술적인 구현까지 문제 해결을 위한 최적의 길을 찾습니다.
 
 <a href="assets/images/human.jpg" target="_blank">
-  <img src="assets/images/human.jpg" alt="인권센터 활동" style="width:100%; border-radius:15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+  <img src="assets/images/human.jpg" alt="소개 이미지" style="width:100%; border-radius:15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
 </a>
 <p align="center" style="font-size: 0.9em; color: #b2bec3; margin-top: 15px;">▲ 이미지를 클릭하면 새 창에서 원본을 크게 볼 수 있습니다.</p>
 
@@ -104,7 +80,7 @@ layout: default
 
 ## 2. 주요 프로젝트 (Projects)
 
-### 📌 Project 1. AI 협업 게임 'Weather is What'
+### 📌 Project 1. AI 협업 게임 ‘Weather is What’
 전문 코딩 지식이 없어도 LLM을 활용해 실제 서비스를 구현해내는 실행력을 갖췄습니다.
 
 <a href="assets/images/game.png" target="_blank">
@@ -112,34 +88,34 @@ layout: default
 </a>
 
 <div align="center">
-  <a href="https://gunlee41.github.io/weatheriswhat/" class="btn" target="_blank">🎮 게임 플레이해보기</a>
+  <a href="https://gunlee41.github.io/weatheriswhat/" class="btn-action" target="_blank">🎮 게임 플레이해보기</a>
 </div>
 
 <br>
 
 ### 📌 Project 2. 시집 <낚시> 출판
-<div class="image-container">
-  <div class="image-item">
+<div class="project-flex-row">
+  <div class="project-flex-item">
     <a href="assets/images/poetry_book.png" target="_blank"><img src="assets/images/poetry_book.png"></a>
-    <div class="image-label">시집 <낚시> 발간</div>
+    <div class="img-caption">시집 <낚시> 발간</div>
   </div>
-  <div class="image-item">
+  <div class="project-flex-item">
     <a href="assets/images/poet.jpg" target="_blank"><img src="assets/images/poet.jpg"></a>
-    <div class="image-label">등단 및 신인상 수상</div>
+    <div class="img-caption">등단 및 신인상 수상</div>
   </div>
 </div>
 
 <br>
 
 ### 📌 Project 3. 콘텐츠 채널 성장전략
-<div class="image-container">
-  <div class="image-item">
+<div class="project-flex-row">
+  <div class="project-flex-item">
     <a href="assets/images/insta.png" target="_blank"><img src="assets/images/insta.png"></a>
-    <div class="image-label">인스타그램 운영</div>
+    <div class="img-caption">인스타그램 운영</div>
   </div>
-  <div class="image-item">
+  <div class="project-flex-item">
     <a href="assets/images/support.png" target="_blank"><img src="assets/images/support.png"></a>
-    <div class="image-label">브랜드 협찬 사례</div>
+    <div class="img-caption">브랜드 협찬 사례</div>
   </div>
 </div>
 
