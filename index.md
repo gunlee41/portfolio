@@ -2,7 +2,7 @@
 
 > "감성의 언어로 소통하고, 기술의 도구로 문제를 해결합니다."  
 > 📧 Email: liongun3@naver.com  
-> 🔗 Github: [github.com/gunlee41](https://github.com/gunlee41)
+> 📧 Email 2: gunlee41@kakao.com 
 
 ---
 
@@ -12,7 +12,7 @@
 글쓰기(기획), 디자인(시각화), 그리고 데이터와 코딩(구현)을 넘나들며, 조직에 비어 있는 부분을 채우고 **'일이 되게 만드는 역할'**을 수행합니다.
 
 <!-- 인권센터 활동 사진을 소개 옆에 배치하여 신뢰도 상승 -->
-![인권센터 활동 확인](assets/images/human.jpg)
+![인권센터 활동 증명서](assets/images/human.jpg)
 *▲ 대전 인권센터 기자단 활동 및 공익 활동 증빙*
 
 ---
@@ -62,7 +62,7 @@
 
 | 인스타그램 운영 | 브랜드 협찬 사례 |
 | :---: | :---: |
-| ![인스타 계정](assets/images/insta.png) | ![협찬 내역](assets/images/support.png) |
+| ![인스타 계정](assets/images/insta.png) | ![협찬 사진](assets/images/support.png) |
 
 ---
 
@@ -75,7 +75,7 @@
     *   [📄 고급 Google 애널리틱스 수료증 보기](assets/images/GA.pdf)
 *   **Notion (노션):** 협업 툴 구축 및 업무 매뉴얼화 능숙
     *   [📄 직접 제작한 '일 잘하는 법' 노션 가이드 보기](assets/images/notion.pdf)
-*   **Design:** 포토샵, 일러스트레이터, 인디자인 (상업용 활용 가능)
+*   **Design:** 캔바, 미리캔버스 (보조적 활용 가능)
 
 ---
 
