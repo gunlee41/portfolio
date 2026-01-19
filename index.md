@@ -1,10 +1,8 @@
-
-
-# 문제를 해결하는 제너럴리스트, 이건희입니다
+# [문제를 해결하는 제너럴리스트, 이건희입니다]
 
 > "감성의 언어로 소통하고, 기술의 도구로 문제를 해결합니다."  
 > 📧 Email: liongun3@naver.com  
-> 📧 Email 2: gunlee41@kakao.com 
+> 🔗 Github: [github.com/gunlee41](https://github.com/gunlee41)
 
 ---
 
@@ -13,12 +11,9 @@
 하나의 직무에 갇히기보다, **문제를 해결하는 데 필요한 도구를 가리지 않고 사용하는 보편적인 인재**입니다.  
 글쓰기(기획), 디자인(시각화), 그리고 데이터와 코딩(구현)을 넘나들며, 조직에 비어 있는 부분을 채우고 **'일이 되게 만드는 역할'**을 수행합니다.
 
-<!-- 인권센터 사진 : 크기를 60%로 줄이고 가운데 정렬 -->
-<p align="center">
-  <img src="assets/images/human.jpg" width="60%">
-  <br>
-  <em>▲ 대전 인권센터 기자단 활동 및 공익 활동 증빙</em>
-</p>
+<!-- 인권센터 활동 사진을 소개 옆에 배치하여 신뢰도 상승 -->
+![인권센터 활동 확인](assets/images/human.jpg)
+*▲ 대전 인권센터 기자단 활동 및 공익 활동 증빙*
 
 ---
 
@@ -33,10 +28,8 @@
 *   **역할:** 게임 기획(룰 디자인), AI 프롬프트 엔지니어링, 배포
 *   **기술:** HTML/CSS, JS, ChatGPT Prompting
 
-<!-- 게임화면 : 깔끔하게 한 장 배치 -->
-<p align="center">
-  <img src="assets/images/game.png" width="80%">
-</p>
+<!-- 게임 썸네일 -->
+![게임 구동 화면](assets/images/game.png)
 
 ### 👉 [🎮 여기를 눌러 게임을 직접 플레이해보세요](https://gunlee41.github.io/weatheriswhat/)
 
@@ -50,16 +43,12 @@
 *   **성과:** 등단 작가(신인상), 시집 독립출판, 매거진 기고
 *   **증빙:**
     *   [📄 잡지 기고문(PDF) 보기](assets/images/magazine.pdf)
-    *   [📄 인터뷰 전문(PDF) 보기](assets/images/interview.pdf)
+    *   [📄 인터뷰 전문 이미지 보기](assets/images/interview.jpg)
 
-<!-- 시집과 상장 : 표 대신 HTML로 나란히 배치 (테두리 없음) -->
-<p align="center">
-  <img src="assets/images/poetry_book.png" width="45%">
-  &nbsp;
-  <img src="assets/images/poet.jpg" width="45%">
-  <br>
-  <em>▲ (좌) 직접 제작한 시집 / (우) 등단 인증서</em>
-</p>
+<!-- 시집 표지와 등단 상장 나란히 배치 (테이블 활용) -->
+| 시집 <낚시> 발간 | 등단 및 신인상 수상 |
+| :---: | :---: |
+| ![시집 표지](assets/images/poetry_book.png) | ![등단 상장](assets/images/poet.jpg) |
 
 <br>
 
@@ -71,27 +60,9 @@
 *   **성과:** 인스타그램 팔로워 1.3k, 브랜드 협찬 및 제휴 달성
 *   **역할:** 채널 운영, 카드뉴스 제작, 데이터 분석
 
-<!-- 인스타와 협찬 : 표 대신 HTML로 나란히 배치 (테두리 없음) -->
-<p align="center">
-  <img src="assets/images/insta.png" width="45%">
-  &nbsp;
-  <img src="assets/images/support.png" width="45%">
-  <br>
-  <em>▲ (좌) 운영 채널 피드 / (우) 브랜드 협찬 성과</em>
-</p>
-
-<br>
-
-### 🎁 Bonus Project. 현재 보고 계신 이 포트폴리오
-**"과정 자체가 증명하는 습득력"**
-
-이 사이트는 별도의 웹 빌더(Wix, I'mweb)나 유료 호스팅 없이, **Github Pages와 마크다운(Markdown)**을 익혀 직접 제작했습니다.
-코드가 낯설어 화면 레이아웃이 깨지는 시행착오가 있었으나, **AI와의 협업과 리서치**를 통해 즉시 해결하고 배포까지 완료했습니다.
-
-*   **제작 기간:** 1일 (Fast Prototyping)
-*   **비용:** 0원 (오픈소스 활용 및 자체 제작)
-*   **사용 기술:** Github, Jekyll Theme, HTML/Markdown Mix
-*   **의의:** 필요한 도구가 있다면, 망설이지 않고 배워서 **내 것으로 만듭니다.**
+| 인스타그램 운영 | 브랜드 협찬 사례 |
+| :---: | :---: |
+| ![인스타 계정](assets/images/insta.png) | ![협찬 내역](assets/images/support.png) |
 
 ---
 
@@ -104,7 +75,7 @@
     *   [📄 고급 Google 애널리틱스 수료증 보기](assets/images/GA.pdf)
 *   **Notion (노션):** 협업 툴 구축 및 업무 매뉴얼화 능숙
     *   [📄 직접 제작한 '일 잘하는 법' 노션 가이드 보기](assets/images/notion.pdf)
-*   **Design:** 캔바, 미리캔버스 (보조적 활용 가능)
+*   **Design:** 포토샵, 일러스트레이터, 인디자인 (상업용 활용 가능)
 
 ---
 
